@@ -1,0 +1,181 @@
+
+** Executing...
+** Command: "C:\Program Files (x86)\window arg\steamapps\common\GarrysMod\bin\vbsp.exe"
+** Parameters: -game "C:\Program Files (x86)\window arg\steamapps\common\GarrysMod\garrysmod" "C:\Users\savioo\Desktop\Nouveau dossier\maps\lbdf.vmf"
+
+Valve Software - vbsp.exe (Sep 13 2019)
+4 threads
+materialPath: C:\Program Files (x86)\window arg\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\savioo\Desktop\Nouveau dossier\maps\lbdf.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/lbdf/nature/ah_blend_gravel_grass1_wvt_patch
+Patching WVT material: maps/lbdf/nature/ah_blend_grass1_dirt2_details_wvt_patch
+Patching WVT material: maps/lbdf/nature/ah_blend_grass1_dirt1_details_wvt_patch
+Patching WVT material: maps/lbdf/nature/ah_blend_gravel_dirt1_wvt_patch
+Patching WVT material: maps/lbdf/nature/ah_blend_grass1_field1_details_wvt_patch
+Patching WVT material: maps/lbdf/nature/ah_blend_grass1_dirt3_details_wvt_patch
+Patching WVT material: maps/lbdf/nature/ah_blend_grass1_dirt2_wvt_patch
+Patching WVT material: maps/lbdf/nature/ah_blend_grass1_pavement1_wvt_patch
+Patching WVT material: maps/lbdf/nature/ah_l_road_dirt_tall_blend_wvt_patch
+Patching WVT material: maps/lbdf/nature/ah_blend_road1_dirt1_wvt_patch
+Patching WVT material: maps/lbdf/nature/ah_blend_grass1_field1_wvt_patch
+Patching WVT material: maps/lbdf/nature/ah_l_path_grass_tall_blend_wvt_patch
+Patching WVT material: maps/lbdf/nature/ah_l_road_road_blend_wvt_patch
+fixing up env_cubemap materials on brush sides...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (1)
+**** leaked ****
+Entity prop_static (14857.00 15429.00 -259.00) leaked!
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 988 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (2)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_10*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_10*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Bad surface extents point: -3607.000000 -1522.000000 -416.000000
+Bad surface extents point: -2967.003906 -850.000000 -416.000000
+Bad surface extents point: -2583.000488 -2034.001953 -416.000000
+Bad surface extents point: -3607.000000 -3362.000244 -416.000000
+Bad surface extents - surface is too big to have a lightmap
+	material NATURE/AH_BLEND_GRASS1_FIELD1_DETAILS around point (-3191.0 -1942.0 -416.0)
+	(dimension: 0, 127>126)
+
+
+** Executing...
+** Command: "C:\Program Files (x86)\window arg\steamapps\common\GarrysMod\bin\vvis.exe"
+** Parameters: -game "C:\Program Files (x86)\window arg\steamapps\common\GarrysMod\garrysmod" "C:\Users\savioo\Desktop\Nouveau dossier\maps\lbdf"
+
+Valve Software - vvis.exe (Sep 13 2019)
+4 threads
+reading c:\users\savioo\desktop\nouveau dossier\maps\lbdf.bsp
+reading c:\users\savioo\desktop\nouveau dossier\maps\lbdf.prt
+LoadPortals: couldn't read c:\users\savioo\desktop\nouveau dossier\maps\lbdf.prt
+
+
+** Executing...
+** Command: "C:\Program Files (x86)\window arg\steamapps\common\GarrysMod\bin\vrad.exe"
+** Parameters:  -game "C:\Program Files (x86)\window arg\steamapps\common\GarrysMod\garrysmod" "C:\Users\savioo\Desktop\Nouveau dossier\maps\lbdf"
+
+Valve Software - vrad.exe SSE (Sep 13 2019)
+
+      Valve Radiosity Simulator     
+4 threads
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\savioo\desktop\nouveau dossier\maps\lbdf.bsp
+PREP OK
+Setting up ray-trace acceleration structure... Done (33.18 seconds)
+15760 faces
+3 degenerate faces
+7024258 square feet [1011493248.00 square inches]
+912 Displacements
+2984151 Square Feet [429717792.00 Square Inches]
+15757 patches before subdivision
+zero area child patch
+zero area child patch
+156273 patches after subdivision
+light has _fifty_percent_distance of 20.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 20.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 20.000000 but _zero_percent_distance of 0.000000
+light has _fifty_percent_distance of 20.000000 but _zero_percent_distance of 0.000000
+277 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (53)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (29)
+transfers 3993106, max 345
+transfer lists:  30.5 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(75623, 48964, 18814)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(3870, 2088, 603)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(339, 172, 39)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #4 added RGB(47, 24, 4)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #5 added RGB(8, 4, 1)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #6 added RGB(2, 1, 0)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (1)
+	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1280 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (22)
+FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (36)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 137/1024         6576/49152    (13.4%) 
+brushes               3138/16384       37656/196608   (19.2%) 
+brushsides           25793/65536      206344/524288   (39.4%) 
+planes               25708/65536      514160/1310720  (39.2%) 
+vertexes             28387/65536      340644/786432   (43.3%) 
+nodes                 9402/65536      300864/2097152  (14.3%) 
+texinfos              4151/12288      298872/884736   (33.8%) 
+texdata                235/2048         7520/65536    (11.5%) 
+dispinfos              912/0          160512/0        ( 0.0%) 
+disp_verts           31088/0          621760/0        ( 0.0%) 
+disp_tris            43392/0           86784/0        ( 0.0%) 
+disp_lmsamples     3514984/0         3514984/0        ( 0.0%) 
+faces                15760/65536      882560/3670016  (24.0%) 
+hdr faces            15760/65536      882560/3670016  (24.0%) 
+origfaces            10005/65536      560280/3670016  (15.3%) 
+leaves                9540/65536      305280/2097152  (14.6%) 
+leaffaces            18151/65536       36302/131072   (27.7%) 
+leafbrushes           9196/65536       18392/131072   (14.0%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges           116697/512000     466788/2048000  (22.8%) 
+edges                73608/256000     294432/1024000  (28.8%) 
+LDR worldlights        276/8192        24288/720896   ( 3.4%) 
+HDR worldlights        276/8192        24288/720896   ( 3.4%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1480/32768       14800/327680   ( 4.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         28383/65536       56766/131072   (43.3%) 
+cubemapsamples         103/1024         1648/16384    (10.1%) 
+overlays               355/512        124960/180224   (69.3%) 
+LDR lightdata         [variable]     9850764/0        ( 0.0%) 
+HDR lightdata         [variable]     9850764/0        ( 0.0%) 
+visdata               [variable]      506335/16777216 ( 3.0%) 
+entdata               [variable]      570720/393216   (145.1%) VERY FULL!
+LDR ambient table     9540/65536       38160/262144   (14.6%) 
+HDR ambient table     9540/65536       38160/262144   (14.6%) 
+LDR leaf ambient     34243/65536      958804/1835008  (52.3%) 
+HDR leaf ambient     34245/65536      958860/1835008  (52.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/226806   ( 0.0%) 
+pakfile               [variable]     9024141/0        ( 0.0%) 
+physics               [variable]     1200870/4194304  (28.6%) 
+physics terrain       [variable]      179770/1048576  (17.1%) 
+
+Level flags = 0
+
+Total triangle count: 45117
+Writing c:\users\savioo\desktop\nouveau dossier\maps\lbdf.bsp
+2 minutes, 57 seconds elapsed
+
+** Executing...
+** Command: Copy File
+** Parameters: "C:\Users\savioo\Desktop\Nouveau dossier\maps\lbdf.bsp" "C:\Program Files (x86)\window arg\steamapps\common\GarrysMod\garrysmod\maps\lbdf.bsp"
+
+
+** Executing...
+** Command: "C:\Program Files (x86)\window arg\steamapps\common\GarrysMod\hl2.exe"
+** Parameters: -game "C:\Program Files (x86)\window arg\steamapps\common\GarrysMod\garrysmod"  +map "lbdf" -steam
+
+
